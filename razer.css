@@ -1,0 +1,925 @@
+
+@font-face {
+    font-family: font1;
+    src: url(fonts/KFOkCnqEu92Fr1Mu51xIIzI.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(fonts/KFOlCnqEu92Fr1MmSU5fBBc4\ \(1\).woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+}
+@font-face {
+    font-family: font4;
+    src: url(fonts/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+@font-face {
+    font-family: font5;
+    src: url(fonts/NaPDcZTIAOhVxoMyOr9n_E7ffAzHGItzYw.woff2);
+}
+@font-face {
+    font-family: font6;
+    src: url(fonts/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2);
+}
+@font-face {
+    font-family: font7;
+    src: url(fonts/phoenix-icons.ttf);
+}
+@font-face {
+    font-family: font8;
+    src: url(fonts/RazerF5.woff);
+}
+@font-face {
+    font-family: font9;
+    src: url(fonts/RazerF5Bold.woff);
+}
+@font-face {
+    font-family: font10;
+    src: url(fonts/RazerF5Light.woff);
+}
+@font-face {
+    font-family: font11;
+    src: url(fonts/RazerF5Thin.woff);
+}
+body{   
+    font-family: font1;
+    margin: 0;
+    background-color: #555;
+}
+.header{
+    width: 100%;
+    height: 59px;
+    background-color:#222;
+    font-size: 16px;
+    font-family: font8;
+     position: fixed; 
+    z-index:1;
+}
+.imgheaderdiv {
+    position: absolute;
+    height: 62px;
+    width: 34px;
+    background: transparent;
+    margin-left: 192px;
+}
+.imgheaderdiv :hover{
+    cursor: pointer;
+}
+.hdiv2{
+    gap: 22px;
+    margin-left:309px ;
+    position: absolute;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    height: 62px;
+
+}
+.hdiv2 :hover{
+    fill: white;
+    color: white;
+    cursor: pointer;
+}
+
+.div2{
+    margin-left: 60px;
+}
+.div3{
+    margin-left: 55px;
+
+}
+.div4{
+    margin-left: 41px;
+}
+.div5{
+    margin-left: 41px;
+
+}
+.div6{
+    margin-left: 42px;
+}
+.div7{
+    margin-left: 46px;
+}
+.div8{
+    margin-left: 41px;
+}
+.div9{
+    width: 14px;
+    height: 14px;
+    margin-left: 40px;
+}
+.div10{
+    width: 14px;
+    height: 14px;
+    margin-left: 50px;
+}
+
+.greendiv{
+    height: 1px;
+    background-color: #44D62C;
+    margin-top: 60px;
+}
+.greydiv{
+    margin: 0;
+    background-color: #555;
+    height: 43px;
+   
+}
+.greydiv div{
+    height: 43px;
+    font-size: 14px;
+    color: white;
+    margin-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto,sans-serif;
+
+}
+.lambo{
+    width: 100%;
+    height: 749px;
+    margin: 0;
+}
+.l-div{
+    position: absolute;
+    background:transparent;
+    width: 100%;
+    height: 227px;
+
+}
+.orange-div{
+    position: absolute;
+    color: black;
+    width: 100px;
+    height: 35px;
+    background-color: #ff9c07;
+    margin-left: 741px;
+    margin-top: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-weight: 700;
+}
+ .div-1{ 
+    font-size: 10px;
+    padding-left: 13px;
+    padding-top: 5px;
+}
+ .div-2{ 
+    font-weight: 700;
+    padding-left: 11px;
+    font-size: 14px;
+}
+
+ .l-div-1{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    font-size: 57px;
+    margin-top: 25px;
+    margin-left: 529px;
+    font-weight: 300;
+    color: white;
+    font-family: font8;
+    font-weight: 700;
+ }
+.l-div-2{
+    color: white;
+    background: transparent;
+    margin-top: 153px;
+    margin-left: 571px;
+    font-size: 28px;
+    font-family: 'font8';
+}
+.l-div-3{
+    color: white;
+    background: transparent;
+    margin-left: 687px;
+    font-size: 21px;
+    margin-top: -16px;
+    font-family: 'font8';
+}
+.l-div-4{
+    color: #44D62C;
+    margin-top: -51px;
+    margin-left: 796px;
+    font-size: 23px;
+}
+.l-div-5{
+    color: white;
+    margin-left: 838px;
+    margin-top: -45px;
+    font-size: 21px;
+    font-family: font8;
+
+}
+.l-div-6{
+    color: #44D62C;
+    margin-top: -48px;
+    margin-left: 883px;
+    font-size: 23px;
+}
+.l-div-1:hover{
+    cursor: pointer;
+}
+.l-div-2:hover{
+    cursor: pointer;
+}
+.l-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.l-div-4:hover{
+    cursor: pointer;
+    
+}
+.l-div-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.l-div-6:hover{
+    cursor: pointer;
+}
+.chair{
+    
+   width: 100%;
+   height: 749px;
+   margin-top: 8px;
+    
+}
+.c-div-1{
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background: transparent;
+    font-size: 57px;
+    margin-top: 0px;
+    margin-left: 638px;
+    font-weight: 300;
+    color: white;
+    font-family: font8;
+    font-weight: 700;
+}
+.c-div-2{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    color: white;
+    margin-top: 98px;
+    margin-left: 548px;
+    font-size: 29px;
+    font-family: 'font8';
+}
+.c-div-3{
+    position: absolute;
+    color: white;
+    background: transparent;
+    margin-top: 157px;
+    margin-left: 689px;
+    font-family: font8;
+    font-size: 21px;
+}
+.c-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-top: 174px;
+    margin-left: 794px;
+    font-size: 23px;
+}
+.c-div-5{
+    position: absolute;
+    color: white;
+    margin-left: 838px;
+    margin-top: 155px;
+    font-size: 21px;
+    font-family: font8;
+}
+.c-div-6{
+    position: absolute;
+    color: #44D62C;
+    margin-top: 174px;
+    margin-left: 878px;
+    font-size: 23px;
+}
+.keyboard{
+
+    
+     width: 100%;
+     height: 749px;
+     margin-top: 8px;
+
+}
+.c-div-1:hover{
+    cursor: pointer;
+}
+.c-div-2:hover{
+    cursor: pointer;
+}
+.c-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.c-div-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.k-div-1{
+    color: white;
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 346px;
+    font-family: 'font8';
+    font-size: 56px;
+    font-weight: 700;
+}
+.k-div-2{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    font-weight: 300;
+    margin-top: 130px;
+    margin-left: 709px;
+    font-size: 28px;
+
+}
+.k-div-3{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-top: 175px;
+    margin-left: 731px;
+    font-size: 21px;
+
+}
+
+.k-div-4{
+    position: absolute;
+    color: #44D62C;
+    font-size: 23px;
+    margin-left: 837px;
+    margin-top: 172px;
+}
+.k-div-1:hover{
+    cursor: pointer;
+}
+.k-div-2:hover{
+    cursor: pointer;
+   
+}
+.k-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.server{
+    width: 788px;
+    height: 575px;
+    margin-top: 8px;
+     float: left; 
+}
+.laptop{
+    width: 786px;
+    height: 575px;
+    margin-top: 8px;
+    float: right;
+    margin-left: 0;
+}
+.design{
+    width: 788px;
+    height: 667px;
+    margin-top: 8px;
+     float: left; 
+}
+
+.game-room{
+    width: 788px;
+    height: 575px;
+    margin-top: 8px;
+     float: left; 
+}
+.competition{
+    width: 786px;
+    height: 575px;
+    margin-top: 8px;
+    float: right;
+    margin-left: 0;
+}
+.s-div-1{
+    position: absolute;
+    color: white;
+    font-family: 'font8';
+    margin-left: 250px;
+    margin-top: 53px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.s-div-2{
+    position: absolute;
+    color: white;
+    font-family: 'font8';
+    margin-left: 172px;
+    margin-top: 108px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.s-div-3{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    margin-left: 343px;
+    margin-top: 162px;
+    font-family: 'font8';
+}
+.s-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 430px;
+    margin-top: 162px;
+}
+.s-div-1:hover{
+    cursor: pointer;
+}
+.s-div-2:hover{
+    cursor: pointer;
+}
+.s-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.s-div-4:hover{
+    cursor: pointer;
+   
+}
+.lap-div-1{
+    position: absolute;
+    color: white;
+    margin-left: 113px;
+    margin-top: 52px;
+    font-size: 40px;
+    font-family: 'font8';
+    font-weight: 700;
+}
+.lap-div-2{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-family: 'font8';
+    font-weight: 200;
+    margin-top: 112px;
+    margin-left: 218px;
+}
+.lap-div-3{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 256px;
+    margin-top: 148px;
+    font-size: 17px;
+
+}
+.lap-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 365px;
+    margin-top: 148px;
+}
+.lap-div-5{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 408px;
+    margin-top: 147px;
+    font-size: 17px;
+}
+.lap-div-6{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 520px;
+    margin-top: 148px;
+}
+.lap-div-1:hover{
+    cursor: pointer;
+}
+.lap-div-2:hover{
+    cursor: pointer;
+}
+.lap-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.lap-div-4:hover{
+    cursor: pointer;
+   
+}
+.lap-div-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.lap-div-6:hover{
+    cursor: pointer;
+}
+.design{
+    width: 788px;
+    height: 575px;
+    margin-top: 8px;
+     float: left; 
+}
+.lap-2{
+    width: 786px;
+    height: 575px;
+    margin-top: 8px;
+    float: right;
+}
+.d-div-1{
+    position: absolute;
+    font-size: 39px;    
+    color: white;
+    font-family: font8;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 57px;
+}
+.d-div-2{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-top: 113px;
+    margin-left: 224px;
+    font-size: 21px;
+}
+.d-div-3{
+    position: absolute;
+    color: white;
+    margin-left: 253px;
+    margin-top: 149px;
+    font-family: font8;
+    font-size: 17px;
+}
+.d-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 388px;
+    margin-top: 150px;
+}
+.d-div-5{
+    position: absolute;
+    color: white;
+    margin-left: 432px;
+    margin-top: 150px;
+    font-family: 'font8';
+    font-size: 17px;
+}
+.d-div-6{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 520px;
+    margin-top: 151px;
+}
+.d-div-1:hover{
+    cursor: pointer;
+}
+.d-div-2:hover{
+    cursor: pointer;
+}
+.d-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.d-div-4:hover{
+    cursor: pointer;
+   
+}
+.d-div-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.d-div-6:hover{
+    cursor: pointer;
+}
+.lap-2-div-1{
+    position: absolute;
+    color: white;
+    margin-left: 199px;
+    margin-top: 52px;
+    font-family: font8;
+    font-weight: 800;
+    font-size: 40px;
+}
+.lap-2-div-2{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-top: 109px;
+    margin-left: 221px;
+    font-size: 21px;
+}
+.lap-2-div-3{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 303px;
+    margin-top: 149px;
+    font-size: 17px;
+}
+.lap-2-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 390px;
+    margin-top: 149px;
+}
+.lap-2-div-5{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 435px;
+    margin-top: 148px;
+    font-size: 17px;
+}
+.lap-2-div-6{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 468px;
+    margin-top: 148px;
+}
+.lap-2-div-1:hover{
+    cursor: pointer;
+    
+
+}
+.lap-2-div-2:hover{
+    cursor: pointer;
+    
+
+}
+.lap-2-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.lap-2-div-4:hover{
+    cursor: pointer;
+    
+
+}
+.lap-2-div-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.lap-2-div-6:hover{
+    cursor: pointer;
+    
+
+}
+.g-div-1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-family: font8;
+    font-weight: 800;
+    margin-left: 124px;
+    margin-top: 56px;
+}
+.g-div-2{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-top: 112px;
+    margin-left: 288px;
+    font-size: 21px;
+
+}
+.g-div-3{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 344px;
+    margin-top: 150px;
+    font-size: 17px;
+}
+.g-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 431px;
+    margin-top: 152px;
+}
+.g-div-1:hover{
+    cursor: pointer;
+}
+.g-div-2:hover{
+    cursor: pointer;
+}
+.g-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.g-div-4:hover:hover{
+    cursor: pointer;
+}
+.co-div-1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    font-family: font8;
+    font-weight: 700;
+    margin-left: 156px;
+    margin-top: 61px;
+}
+.co-div-2{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-top: 111px;
+    margin-left: 218px;
+    font-size: 21px;
+    
+}
+.co-div-3{
+    position: absolute;
+    color: white;
+    font-family: font8;
+    margin-left: 349px;
+    margin-top: 150px;
+    font-size: 17px;
+}
+.co-div-4{
+    position: absolute;
+    color: #44D62C;
+    margin-left: 427px;
+    margin-top: 151px;
+}
+.co-div-1:hover{
+    cursor: pointer;
+}
+.co-div-2:hover{
+    cursor: pointer;
+}
+.co-div-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.co-div-4:hover{
+    cursor: pointer;
+}
+.black-div{
+    width: 100%;
+    height: 355px;
+    background-color: black;
+    float: right;
+    margin-top: 8px;
+}
+.shop{
+    position: absolute;
+    color: white;
+    margin-left: 194px;
+    margin-top: 26px;
+    font-size: 13px;
+    font-family: 'font8';
+}
+.shop-div{
+    position: absolute;
+    color: #888888;
+    margin-left: 194px;
+    margin-top: 40px;
+    font-family: 'font8';
+    font-size: 13px;
+}
+.shop-div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.explore{
+    position: absolute;
+    color: white;
+    margin-left: 370px;
+    margin-top: 26px;
+    font-size: 13px;
+    font-family: 'font8';
+}
+.explore-div{
+    position: absolute;
+    color: #888888;
+    margin-left: 370px;
+    margin-top: 40px;
+    font-family: 'font8';
+    font-size: 12px;
+}
+.explore-div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.support{
+    position: absolute;
+    color: white;
+    margin-left: 580px;
+    margin-top: 26px;
+    font-size: 13px;
+    font-family: 'font8';
+}
+.support-div{
+    position: absolute;
+    color: #888888;
+    margin-left: 580px;
+    margin-top: 40px;
+    font-family: 'font8';
+    font-size: 12px;
+}
+.support-div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.company{
+    position: absolute;
+    color: white;
+    margin-left: 755px;
+    margin-top: 26px;
+    font-size: 13px;
+    font-family: 'font8';
+}
+.company-div{
+    position: absolute;
+    color: #888888;
+    margin-left: 755px;
+    margin-top: 40px;
+    font-family: 'font8';
+    font-size: 12px;
+}
+.company-div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.follow-div p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.follow{
+    position: absolute;
+    color: white;
+    margin-left: 925px;
+    margin-top: 26px;
+    font-size: 13px;
+    font-family: 'font8';
+}
+.follow-div{
+    width: 28px;
+    height: 40px;
+    margin-left: 937px;
+    margin-top: 46px;
+}
+.follow-div:hover{
+    cursor: pointer;
+}
+.g-div{
+    width: 198px;
+    height: 25px;
+    color: #44D62C;
+    margin-left: 1171px;
+    margin-top: -60px;
+    font-family: 'font8';
+}
+footer{
+    display: flex;
+    
+    position: absolute;
+    width: 1155px;
+    height: 42px;
+    color:  #888888;
+    margin-top: 5px;
+    margin-left: 193px;
+    font-size: 13px;
+    font-family: 'font8';
+    border-top-width: 2px;
+    border-top-color: bisque; 
+}
+
+.f-div-1{
+    display: flex;
+    gap: 2px;
+}
+.f-div-2{
+    display: flex;
+    margin-left: 66px;
+    gap: 10px;
+}
+.f-div-3{
+    display: flex;
+    margin-left: 288px;
+    gap: 2px;
+}
+.last-line hr{
+    margin-left: 193px;
+    width: 1129px;
+    margin-top: 229px;
+    border: none;
+    background-color: #888888;
+    height: 1px;
+    margin-top: 249px;
+}
